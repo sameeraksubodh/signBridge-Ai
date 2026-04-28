@@ -1,7 +1,0 @@
-# Conceptual Gemini Integration
-import google.generativeai as genai
-
-def refine_sentence(raw_text):
-    model = genai.GenerativeModel('gemini-pro')
-    response = model.generate_content(f"Convert these sign language keywords into a natural sentence: {raw_text}")
-    return response.text
