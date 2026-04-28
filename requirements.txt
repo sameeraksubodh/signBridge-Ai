@@ -2,3 +2,5 @@ opencv-python
 mediapipe
 scikit-learn
 numpy
+google-generativeai
+
